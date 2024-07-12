@@ -1,0 +1,57 @@
+2024-07-12 15:13:03 | INFO  | com.example.demo.ManytoManyApplication | Starting ManytoManyApplication using Java 21.0.2 with PID 16820 (C:\Users\Rathod\Desktop\javaScript\ManytoMany\target\classes started by Rathod in C:\Users\Rathod\Desktop\javaScript\ManytoMany)
+2024-07-12 15:13:03 | INFO  | com.example.demo.ManytoManyApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-12 15:13:04 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 15:13:04 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2024-07-12 15:13:05 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8080 (http)
+2024-07-12 15:13:05 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-12 15:13:05 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12 15:13:05 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-12 15:13:05 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 2171 ms
+2024-07-12 15:13:05 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 15:13:05 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 15:13:05 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-12 15:13:06 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 15:13:06 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-12 15:13:06 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34cb0e49
+2024-07-12 15:13:06 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-12 15:13:06 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-12 15:13:08 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 15:13:08 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 15:13:09 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 15:13:09 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 15:13:09 | INFO  | com.example.demo.ManytoManyApplication | Started ManytoManyApplication in 7.265 seconds (process running for 8.429)
+2024-07-12 15:14:16 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-12 15:14:16 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 15:14:16 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-12 15:14:16 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2024-07-12 15:16:20 | INFO  | com.example.demo.ManytoManyApplication | Starting ManytoManyApplication using Java 21.0.2 with PID 12912 (C:\Users\Rathod\Desktop\javaScript\ManytoMany\target\classes started by Rathod in C:\Users\Rathod\Desktop\javaScript\ManytoMany)
+2024-07-12 15:16:20 | INFO  | com.example.demo.ManytoManyApplication | No active profile set, falling back to 1 default profile: "default"
+2024-07-12 15:16:21 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 15:16:21 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2024-07-12 15:16:22 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port 8080 (http)
+2024-07-12 15:16:22 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2024-07-12 15:16:22 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-12 15:16:22 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2024-07-12 15:16:22 | INFO  | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 1973 ms
+2024-07-12 15:16:22 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 15:16:23 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 15:16:23 | INFO  | org.hibernate.cache.internal.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2024-07-12 15:16:23 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 15:16:23 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2024-07-12 15:16:23 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1cfe4
+2024-07-12 15:16:23 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2024-07-12 15:16:23 | WARN  | org.hibernate.orm.deprecation | HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-12 15:16:25 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 15:16:25 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 15:16:26 | WARN  | org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 15:16:26 | INFO  | org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 15:16:26 | INFO  | com.example.demo.ManytoManyApplication | Started ManytoManyApplication in 6.634 seconds (process running for 7.531)
+2024-07-12 15:16:35 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-12 15:16:35 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2024-07-12 15:16:35 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 3 ms
+2024-07-12 15:16:36 | INFO  | org.springdoc.api.AbstractOpenApiResource | Init duration for springdoc-openapi is: 417 ms
+2024-07-12 15:16:57 | WARN  | org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver | Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value]
+2024-07-12 15:17:46 | INFO  | org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin | Application shutdown requested.
+2024-07-12 15:17:46 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 15:17:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2024-07-12 15:17:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
